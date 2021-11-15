@@ -55,6 +55,12 @@ ul a {
 ############ MAIN STYLE ############
 ###################################*/
 
+h2 {
+  font-family: "Arial Rounded MT";
+  font-size: 26px;
+  margin: 30px 210px;
+}
+
 .promo__img {
   width: 100%;
   height: auto;
@@ -89,36 +95,37 @@ ul a {
   margin-top: 40px;
 }
 
-.prod__container {
+.home-prod__container {
   max-width: 250px;
   display: flex;
   flex-direction: column;
 }
 
-.prod__img {
+.home-prod__img {
+  width: 200px;
   margin: auto;
   margin-bottom: 40px;
 }
 
-.prod__description {
+.home-prod__description {
   font-family: 'Arial Rounded MT';
   font-size: 20px;
   margin: auto;
   margin-bottom: 20px;
 }
 
-.prod__divider {
+.home__divider {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.prod__price {
+.home__price {
   font-family: 'Arial Rounded MT';
   font-size: 18px;
 }
 
-.prod__btn {
+.home-prod__btn {
   font-family: 'Arial Rounded MT';
   font-size: 16px;
   color: #000;
@@ -132,7 +139,7 @@ ul a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("/resources/imgs/bckgrnd.png");
+  background-image: url("../imgs/bckgrnd.png");
   height: 300px;
   margin: 70px 0;
 }
@@ -186,33 +193,4 @@ ul a {
   display: flex;
   justify-content: center;
   margin: 20px 0;
-}
-
-/*#################################
-########### PRODS STYLE ###########
-###################################*/
-
-.prods__title {
-  font-family: 'Arial Rounded MT';
-  font-size: 30px;
-  margin: 40px 200px 10px;
-}
-
-.prods-grid {
-  display: grid;
-  grid-template-columns: 250px 250px 250px;
-  justify-content: space-evenly;
-}
-
-.prod__background {
-  background-color: #8B9E8A;
-  padding: 30px;
-  border-radius: 20px;
-  color: #fff;
-  margin: 40px 0;
-}
-
-.btn-change {
-  padding: 15px 40px;
-  color: #8B9E8A;
 }

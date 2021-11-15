@@ -1,5 +1,7 @@
-<nav>
+<header>
+  <nav>
     <h1>Totes : cool</h1>
+    <p>hello</p>
     
     <ul class="nav__ul">
       <li>
@@ -12,7 +14,7 @@
         <a href="<?php echo BASE_URL; ?>/about">About Us</a>
       </li>
       <li>
-        <!-- @todo: set link href -->
+        @todo: set link href
         <a href="">
           <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 47.496 43.536">
             <g data-name="Group 18" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="5">
@@ -26,7 +28,7 @@
         </a>
       </li>
       <li>
-        <!-- @todo: set link href -->
+        @todo: set link href
         <a href="">
           <svg xmlns="http://www.w3.org/2000/svg" width="29.29" height="30" viewBox="0 0 29.29 40">
             <path id="bag" d="M97.816,34.55,95.684,11.137A1.248,1.248,0,0,0,94.439,10h-3.75V7.5A7.455,7.455,0,0,0,88.5,2.192,7.506,7.506,0,0,0,75.689,7.5V10h-3.75a1.248,1.248,0,0,0-1.245,1.137l-2.128,23.41A5,5,0,0,0,73.546,40H92.834a5,5,0,0,0,4.982-5.45ZM88.189,10h-10V7.5a5,5,0,1,1,10,0Z" transform="translate(-68.546)" fill="#fff"/>
@@ -43,3 +45,4 @@
       </li>
     </ul>
   </nav>
+</header>
